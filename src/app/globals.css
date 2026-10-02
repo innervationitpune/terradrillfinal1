@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", var(--font-sans);
+  --font-display: "Syne", var(--font-syne);
+  
+  --color-primary: #ff6b35;
+  --color-primary-bright: #ff8555;
+  --color-primary-dark: #e55525;
+  
+  --color-navy-deep: #081020;
+  --color-navy: #0e1a37;
+  --color-navy-light: #1a2744;
+}
+
+:root {
+  --background: var(--color-navy-deep);
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+.text-display {
+  font-family: var(--font-display);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hide Next.js Dev Indicator completely */
+[data-nextjs-dialog-overlay],
+[data-nextjs-toast],
+nextjs-portal,
+#nextjs-dev-tools,
+div[data-nextjs-toast-wrapper] {
+  display: none !important;
+}
+
