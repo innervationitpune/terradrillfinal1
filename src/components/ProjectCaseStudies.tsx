@@ -60,18 +60,18 @@ export default function ProjectCaseStudies() {
   return (
     <section ref={targetRef} className="relative h-[400vh] bg-[#050914] text-white">
       <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden pt-20">
-        
+
         <div className="absolute top-12 left-8 md:left-16 z-20 pointer-events-none">
           <p className="text-primary font-bold tracking-[0.3em] uppercase text-sm mb-4">Project Intelligence</p>
           <h2 className="text-display text-5xl md:text-[6rem] font-bold uppercase tracking-tighter leading-[0.9]">
-            CASE STUDIES
+            Projects
           </h2>
         </div>
 
         <motion.div style={{ x }} className="flex w-[400vw] h-[70vh] items-center px-8 md:px-16 pt-24 gap-16 md:gap-32">
           {projects.map((project) => (
             <div key={project.id} className="w-[85vw] md:w-[80vw] shrink-0 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-              
+
               {/* Image Side */}
               <div className="relative h-[40vh] lg:h-[60vh] rounded-2xl overflow-hidden group">
                 <img src={project.img} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" />
@@ -103,7 +103,7 @@ export default function ProjectCaseStudies() {
                   <p className="text-white/40 uppercase text-xs tracking-widest mb-2">Engineering Challenge</p>
                   <p className="text-white/80 leading-relaxed">{project.challenge}</p>
                 </div>
-                
+
                 <div>
                   <p className="text-white/40 uppercase text-xs tracking-widest mb-2">Solution</p>
                   <p className="text-white/80 leading-relaxed">{project.solution}</p>
