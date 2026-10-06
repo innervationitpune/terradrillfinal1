@@ -28,7 +28,7 @@ const CARDS = [
     no: "04", from: T.railEnd, to: 1.01, accent: "#ff5500",
     label: "Global Engineering Footprint",
     title: "Proven Executional Excellence",
-    text: "From river crossings in India to complex urban utility corridors in Europe and Asia, Trayana delivers precision underground infrastructure solutions worldwide.",
+    text: "From river crossings in India to complex urban utility corridors in Europe and Asia, TERRADRILL & ENERGY PRIVATE LIMITED delivers precision underground infrastructure solutions worldwide.",
   },
 ];
 
@@ -50,8 +50,8 @@ export default function SceneOverlay({ scrollProgress }: SceneOverlayProps) {
 
       <div className="absolute inset-0 bg-[#040d1f]" style={{ opacity: veilOpacity }} />
 
-      {/* --- STAGE 0: TRAYANA HERO OVERLAY (LEFT SIDE) --- */}
-      <div 
+      {/* --- STAGE 0: TERRADRILL & ENERGY PRIVATE LIMITED HERO OVERLAY (LEFT SIDE) --- */}
+      <div
         className="w-full max-w-7xl mx-auto px-6 md:px-12 pt-28 md:pt-36 flex-1 flex flex-col justify-center transition-opacity duration-300"
         style={{ opacity: heroOpacity, display: scrollProgress > T.cut ? 'none' : 'flex' }}
       >
@@ -80,14 +80,14 @@ export default function SceneOverlay({ scrollProgress }: SceneOverlayProps) {
 
           {/* Action CTAs */}
           <div className="flex flex-wrap items-center gap-4">
-            <a 
-              href="/services" 
+            <a
+              href="/services"
               className="bg-white text-black rounded-full px-8 py-3.5 text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-[#ff5500] hover:text-white transition-all shadow-lg hover:shadow-[#ff5500]/25 transform hover:-translate-y-0.5"
             >
               Our Services
             </a>
-            <a 
-              href="/projects" 
+            <a
+              href="/projects"
               className="border border-white/30 text-white rounded-full px-8 py-3.5 text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-white/10 transition-all backdrop-blur-sm transform hover:-translate-y-0.5"
             >
               View Projects
@@ -130,7 +130,7 @@ export default function SceneOverlay({ scrollProgress }: SceneOverlayProps) {
       <div className="w-full bg-[#040d1f]/95 border-t border-white/10 backdrop-blur-xl pointer-events-auto z-30">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-white/10">
-            
+
             {/* Metric 1: 4+ COUNTRIES (FULL TEXT ALWAYS VISIBLE) */}
             <div className="flex flex-col py-5 md:py-6 md:px-6">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-1">
@@ -144,10 +144,10 @@ export default function SceneOverlay({ scrollProgress }: SceneOverlayProps) {
               </div>
             </div>
 
-            {/* Metric 2: 250+ PROJECTS */}
+            {/* Metric 2: 1000+ PROJECTS */}
             <div className="flex flex-col py-5 md:py-6 md:px-6">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-1">
-                250+
+                1000+
               </div>
               <div className="text-[10px] md:text-[11px] font-black text-[#ff5500] uppercase tracking-[0.18em] mb-0.5">
                 PROJECTS
@@ -170,10 +170,10 @@ export default function SceneOverlay({ scrollProgress }: SceneOverlayProps) {
               </div>
             </div>
 
-            {/* Metric 4: 250+ EXPERTS */}
+            {/* Metric 4: 300+ EXPERTS */}
             <div className="flex flex-col py-5 md:py-6 md:px-6">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-1">
-                250+
+                300+
               </div>
               <div className="text-[10px] md:text-[11px] font-black text-[#ff5500] uppercase tracking-[0.18em] mb-0.5">
                 EXPERTS

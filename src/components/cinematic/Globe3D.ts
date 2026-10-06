@@ -13,7 +13,7 @@ export function latLngToVector3(lat: number, lng: number, r: number): THREE.Vect
   );
 }
 
-// ── Trayana Network: ONLY 5 locations (India hub + 4 international) ───────────
+// ── TERRADRILL & ENERGY PRIVATE LIMITED Network: ONLY 5 locations (India hub + 4 international) ───────────
 
 const TRAYANA_LOCATIONS = [
   { name: 'INDIA',       lat: 20.5937, lng:  78.9629, hub: true  },

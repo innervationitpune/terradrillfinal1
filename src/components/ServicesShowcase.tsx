@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: 'Railway Crossings',
-    desc: 'Industry-leading expertise in the execution of trenchless railway crossings beneath active railway corridors without disruption to rail operations. Successfully completed crossings up to 2,200 mm diameter across multiple divisions of South Central Railway, Western Railway, Eastern Railway, and Central Railway. Backed by over two decades of proven project delivery and execution excellence, Trayana Infratech Public Limited has established a strong track record in delivering safe, reliable, and technically demanding railway crossing projects.',
+    desc: 'Industry-leading expertise in the execution of trenchless railway crossings beneath active railway corridors without disruption to rail operations. Successfully completed crossings up to 2,200 mm diameter across multiple divisions of South Central Railway, Western Railway, Eastern Railway, and Central Railway. Backed by over two decades of proven project delivery and execution excellence, TERRADRILL & ENERGY PRIVATE LIMITED has established a strong track record in delivering safe, reliable, and technically demanding railway crossing projects.',
   },
   {
     title: 'Water Infrastructure',

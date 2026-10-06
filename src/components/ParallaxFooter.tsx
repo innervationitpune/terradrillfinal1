@@ -30,10 +30,10 @@ export default function ParallaxFooter() {
             {/* Branding & Description */}
             <div className="md:col-span-1 flex flex-col gap-6">
               <div>
-                <img src="/images/trayana-logo.png" alt="Trayana Infratech" className="h-10 md:h-12 w-auto object-contain" />
+                <img src="/images/terradrill-logo.png" alt="TERRADRILL & ENERGY PRIVATE LIMITED" className="w-[200px] md:w-[260px] h-auto object-contain" />
               </div>
               <p className="text-white/60 text-xs md:text-sm leading-relaxed">
-                Trayana Infratech is an integrated infrastructure company delivering engineering, procurement, and construction solutions across water, wastewater, transportation, utility, industrial, and trenchless infrastructure projects, serving public and private sector clients across India and international markets.
+                TERRADRILL & ENERGY PRIVATE LIMITED is an integrated infrastructure company delivering engineering, procurement, and construction solutions across water, wastewater, transportation, utility, industrial, and trenchless infrastructure projects, serving public and private sector clients across India and international markets.
               </p>
 
               <div className="flex flex-col gap-4 mt-2">
@@ -98,7 +98,7 @@ export default function ParallaxFooter() {
 
           {/* Bottom Copyright */}
           <div className="flex flex-col md:flex-row justify-between items-center border-t border-white/10 pt-8 mt-12 text-white/30 text-[11px] md:text-xs tracking-wider gap-4">
-            <p>&copy; 2026 Trayana Infratech. All Rights Reserved.</p>
+            <p>&copy; 2026 TERRADRILL & ENERGY PRIVATE LIMITED. All rights reserved.</p>
             <p>Designed & Developed by Innervation IT</p>
           </div>
 

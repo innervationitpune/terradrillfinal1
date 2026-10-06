@@ -233,7 +233,7 @@ export default function ClientsPage() {
                   transition={{ duration: 0.6 }}
                   className="text-display text-3xl md:text-4xl lg:text-[40px] font-bold uppercase text-white leading-[1.1]"
                 >
-                  Become a Trayana Infratech<br/>Public Limited Client.
+                  Become a TERRADRILL & ENERGY PRIVATE LIMITED<br/>Public Limited Client.
                 </motion.h2>
               </div>
               

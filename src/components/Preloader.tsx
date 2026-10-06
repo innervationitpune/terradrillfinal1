@@ -78,7 +78,7 @@ export default function Preloader() {
                 transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] }}
                 className="text-white/50 text-sm md:text-lg tracking-[0.4em] uppercase font-bold"
               >
-                Trayana Infratech
+                TERRADRILL & ENERGY PRIVATE LIMITED
               </motion.h1>
             </div>
             

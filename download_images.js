@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
-const baseUrl = 'https://trayana-infratech.netlify.app';
+const baseUrl = 'https://terradrill.netlify.app';
 const images = [
   '/images/equipment/hdd-hero.jpeg',
 ];

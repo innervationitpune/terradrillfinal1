@@ -4,9 +4,9 @@ import { AnimatedTitle } from './PremiumAnimations';
 
 const stats = [
   { value: '4+', label: 'Countries Operated' },
-  { value: '250+', label: 'Projects Completed' },
+  { value: '1000+', label: 'Projects Completed' },
   { value: '25+', label: 'Machines & Rigs' },
-  { value: '250+', label: 'Skilled Experts' },
+  { value: '300+', label: 'Skilled Experts' },
 ];
 
 export default function KineticStats() {

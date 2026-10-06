@@ -60,7 +60,7 @@ export default function GlobalPageEarth() {
     };
   }, []);
 
-  // Approved Trayana locations
+  // Approved TERRADRILL & ENERGY PRIVATE LIMITED locations
   const locations = [
     { name: 'PUNE', lat: 18.5204, lng: 73.8567, isHub: true },
     { name: 'MUMBAI', lat: 19.0760, lng: 72.8777 },

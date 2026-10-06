@@ -4,8 +4,8 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { AnimatedTitle } from './PremiumAnimations';
 
 const projects = [
-  { id: '01', title: "HDD Pipeline Installations", img: "https://Trayanainfra.netlify.app/images/hero-banner.jpg", location: "Global" },
-  { id: '02', title: "Deep Water Infrastructure", img: "https://Trayanainfra.netlify.app/images/projects/p3.jpg", location: "Mumbai" },
+  { id: '01', title: "HDD Pipeline Installations", img: "https://terradrill.netlify.app/images/hero-banner.jpg", location: "Global" },
+  { id: '02', title: "Deep Water Infrastructure", img: "https://terradrill.netlify.app/images/projects/p3.jpg", location: "Mumbai" },
   { id: '03', title: "Microtunneling Networks", img: "https://images.unsplash.com/photo-1541888086950-844fb2b12eb5?auto=format&fit=crop&q=80&w=1600", location: "Delhi" },
   { id: '04', title: "Urban Utility Ducting", img: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1600", location: "Dubai" }
 ];

@@ -28,7 +28,7 @@ export default function MagneticButton({ children, className, onClick }: { child
       onClick={onClick}
       animate={{ x, y }}
       transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
-      className={`relative overflow-hidden group rounded-full border border-primary/50 hover:border-primary px-8 py-3 text-xs uppercase tracking-widest font-bold transition-colors ${className}`}
+      className={`relative overflow-hidden group rounded-full border border-primary/50 hover:border-primary px-8 py-3 text-xs uppercase tracking-widest font-bold transition-colors whitespace-nowrap ${className}`}
     >
       <div className="absolute inset-0 bg-primary translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]" />
       <span className="relative z-10 group-hover:text-navy-deep transition-colors duration-500">{children}</span>

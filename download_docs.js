@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
-const baseUrl = 'https://trayana-infratech.netlify.app';
+const baseUrl = 'https://terradrill.netlify.app';
 const docs = [
   '/documents/1-DRG._NO._801_R5_Chandani_chowk_layout_plan_22.09.2017.pdf',
   '/documents/LINE_NO-07_MAIN_SEWER_LINE_ALONG_HADAPSAR_NALLA_06-02-2023-4.pdf',

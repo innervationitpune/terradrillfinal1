@@ -29,7 +29,7 @@ export default function AboutTrayana() {
             >
               <img
                 src="/images/projects/p3.jpg"
-                alt="Trayana Infratech project site"
+                alt="TERRADRILL & ENERGY PRIVATE LIMITED project site"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
             </div>
@@ -71,7 +71,7 @@ export default function AboutTrayana() {
           >
             {/* Eyebrow */}
             <p className="text-primary font-bold uppercase tracking-widest mb-4" style={{ fontSize: '0.72rem', letterSpacing: '0.18em' }}>
-              About Trayana Infratech Public Limited
+              About TERRADRILL & ENERGY PRIVATE LIMITED
             </p>
 
             {/* Heading — ~2 lines on desktop via clamp + explicit break */}
@@ -92,10 +92,10 @@ export default function AboutTrayana() {
               style={{ fontSize: '0.96rem', lineHeight: 1.65 }}
             >
               <p>
-                For over 30 years, Trayana InfraTech and its subsidiaries have been delivering advanced trenchless engineering solutions that enable critical underground infrastructure development across urban, industrial, and utility sectors. The company specializes in the design, engineering, and execution of complex trenchless projects, supporting the expansion of transportation, energy, telecommunications, water, and waste infrastructure.
+                For over 30 years, TERRADRILL & ENERGY PRIVATE LIMITED and its subsidiaries have been delivering advanced trenchless engineering solutions that enable critical underground infrastructure development across urban, industrial, and utility sectors. The company specializes in the design, engineering, and execution of complex trenchless projects, supporting the expansion of transportation, energy, telecommunications, water, and waste infrastructure.
               </p>
               <p>
-                With proven expertise in Horizontal Directional Drilling (HDD), Microtunneling, Pipe Jacking, Utility Crossings, and Railway Infrastructure Projects, Trayana InfraTech has successfully executed projects for government agencies, public utilities, EPC contractors, and multinational corporations.
+                With proven expertise in Horizontal Directional Drilling (HDD), Microtunneling, Pipe Jacking, Utility Crossings, and Railway Infrastructure Projects, TERRADRILL & ENERGY PRIVATE LIMITED has successfully executed projects for government agencies, public utilities, EPC contractors, and multinational corporations.
               </p>
               <p>
                 Our integrated engineering and construction approach combines technical innovation, rigorous project management, and uncompromising safety standards to deliver reliable, cost-effective, and environmentally responsible infrastructure solutions.

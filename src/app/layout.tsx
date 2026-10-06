@@ -13,7 +13,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: 'Trayana Infratech | World-Class Engineering',
+  title: 'TERRADRILL & ENERGY PRIVATE LIMITED | World-Class Engineering',
   description: 'Global trenchless engineering specialists delivering underground infrastructure across the globe.',
 };
 

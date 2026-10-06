@@ -7,7 +7,7 @@ export default function AboutTimeline() {
     { year: "TECHNOLOGY", desc: "Pioneered the adoption of advanced trenchless technologies, bringing international HDD standards to regional projects." },
     { year: "PROJECT EXPERIENCE", desc: "Successfully delivered complex cross-country pipelines, urban utility networks, and critical railway crossings." },
     { year: "INTERNATIONAL", desc: "Expanded operational footprint across multiple countries, executing mission-critical infrastructure globally." },
-    { year: "MAYA TODAY", desc: "A premier engineering and EPC firm delivering comprehensive end-to-end underground infrastructure solutions." }
+    { year: "TERRADRILL & ENERGY PRIVATE LIMITED TODAY", desc: "A premier engineering and EPC firm delivering comprehensive end-to-end underground infrastructure solutions." }
   ];
 
   return (

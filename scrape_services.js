@@ -3,7 +3,7 @@ const https = require('https');
 const path = require('path');
 
 async function scrapeServices() {
-  const url = 'https://trayana-infratech.netlify.app/services';
+  const url = 'https://terradrill.netlify.app/services';
   
   https.get(url, (res) => {
     let data = '';
@@ -33,7 +33,7 @@ async function scrapeServices() {
       }
 
       for (const img of uniqueImages) {
-        const imgUrl = `https://trayana-infratech.netlify.app/images/services/${img}`;
+        const imgUrl = `https://terradrill.netlify.app/images/services/${img}`;
         const dest = path.join(dir, img);
         console.log(`Downloading ${imgUrl} to ${dest}`);
         await new Promise((resolve) => {

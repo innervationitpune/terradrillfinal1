@@ -67,7 +67,7 @@ export default function AboutPage() {
               transition={{ duration: 1, delay: 0.8 }}
               className="text-white text-lg leading-relaxed max-w-xl font-light"
             >
-              Trayana Infratech is a diversified infrastructure company providing engineering, procurement, construction, and specialized infrastructure solutions across multiple sectors, serving government agencies, public sector undertakings, EPC contractors, and private enterprises.
+              TERRADRILL & ENERGY PRIVATE LIMITED is a diversified infrastructure company providing engineering, procurement, construction, and specialized infrastructure solutions across multiple sectors, serving government agencies, public sector undertakings, EPC contractors, and private enterprises.
             </motion.p>
           </div>
 
@@ -173,7 +173,7 @@ export default function AboutPage() {
         </section>
 
         {/* 04. Financial Growth */}
-        <section className="py-24 px-4 max-w-[1400px] mx-auto">
+        <section className="hidden py-24 px-4 max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -316,8 +316,8 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { name: "Manas Joshi", title: "Founder & Managing Director", desc: "Driving corporate strategy, growth, and long-term vision." },
-                { name: "Rajat Fadtare", title: "Director, Projects & Operations", desc: "Leading safe, efficient, and high-quality project execution." },
-                { name: "Shubham Badade", title: "Director, Business Development & Stakeholder Relations", desc: "Strengthening client partnerships and government engagement." }
+                { name: "Ajinkya Dandawate", title: "Director, Projects & Operations", desc: "Leading safe, efficient, and high-quality project execution." },
+                { name: "Anaya Joshi", title: "Director, Business Development & Stakeholder Relations", desc: "Strengthening client partnerships and government engagement." }
               ].map((leader, i) => (
                 <motion.div
                   key={i}

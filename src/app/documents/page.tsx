@@ -185,7 +185,7 @@ export default function DocumentsPage() {
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
               className="text-white/90 text-base md:text-lg leading-relaxed max-w-2xl font-light drop-shadow-[0_1px_10px_rgba(0,0,0,0.55)]"
             >
-              Authentic project drawings, work orders and technical documents from Trayana Infratech Public Limited's executed portfolio. Each document is a downloadable PDF.
+              Authentic project drawings, work orders and technical documents from TERRADRILL & ENERGY PRIVATE LIMITED's executed portfolio. Each document is a downloadable PDF.
             </motion.p>
           </div>
         </section>

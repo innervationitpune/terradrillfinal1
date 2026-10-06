@@ -43,7 +43,7 @@ export default function GlobeComponent() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // ONLY approved Trayana locations
+  // ONLY approved TERRADRILL & ENERGY PRIVATE LIMITED locations
   const locations = [
     { name: 'INDIA', lat: 20.5937, lng: 78.9629 },
     { name: 'FRANCE', lat: 46.2276, lng: 2.2137 },
@@ -57,7 +57,7 @@ export default function GlobeComponent() {
     startLng: 78.9629,
     endLat: loc.lat,
     endLng: loc.lng,
-    color: ['#ff5500', '#ff9900'] // Trayana orange accents
+    color: ['#ff5500', '#ff9900'] // TERRADRILL & ENERGY PRIVATE LIMITED orange accents
   }));
 
   return (

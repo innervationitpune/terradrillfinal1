@@ -25,7 +25,7 @@ const logos = [
 
 async function download() {
   for (const item of logos) {
-    const imgUrl = `https://trayana-infratech.netlify.app${item}`;
+    const imgUrl = `https://terradrill.netlify.app${item}`;
     // keep folder structure inside public
     const destDir = path.join(__dirname, 'public', path.dirname(item));
     if (!fs.existsSync(destDir)){

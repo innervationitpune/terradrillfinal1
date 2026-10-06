@@ -40,19 +40,19 @@ export default function Header() {
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'bg-navy-deep/90 backdrop-blur-md py-4' : 'bg-transparent py-8'}`}>
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <Link href="/">
+        <div className="w-full px-6 md:px-10 xl:px-16 flex items-center justify-between">
+          <Link href="/" className="shrink-0 flex items-center">
             <motion.div whileHover={{ scale: 1.05 }} className="cursor-pointer relative z-50">
-              <img src="/images/trayana-logo.png" alt="Trayana Infratech" className="h-8 md:h-10 w-auto object-contain" />
+              <img src="/images/terradrill-logo.png" alt="TERRADRILL & ENERGY PRIVATE LIMITED" className="w-[160px] md:w-[260px] lg:w-[280px] xl:w-[300px] h-auto object-contain" />
             </motion.div>
           </Link>
           
-          <nav className="hidden xl:flex items-center gap-6">
+          <nav className="hidden xl:flex items-center gap-4 xl:gap-6">
             {links.map(link => {
               const isActive = pathname === link.href;
               return (
                 <Link key={link.name} href={link.href}>
-                  <span className={`text-xs uppercase tracking-[0.15em] font-bold transition-colors cursor-pointer relative group ${isActive ? 'text-primary' : 'text-white/70 hover:text-white'}`}>
+                  <span className={`whitespace-nowrap text-[11px] xl:text-xs uppercase tracking-[0.12em] xl:tracking-[0.15em] font-bold transition-colors cursor-pointer relative group ${isActive ? 'text-primary' : 'text-white/70 hover:text-white'}`}>
                     {link.name}
                     <span className={`absolute left-0 -bottom-2 h-0.5 bg-primary transition-all duration-300 ${isActive ? 'w-full' : 'w-0 group-hover:w-full'}`} />
                   </span>
@@ -61,7 +61,7 @@ export default function Header() {
             })}
           </nav>
           
-          <div className="hidden xl:block">
+          <div className="hidden xl:block shrink-0">
             <Link href="/contact">
               <MagneticButton>Enquire Now</MagneticButton>
             </Link>
